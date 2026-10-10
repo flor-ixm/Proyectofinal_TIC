@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WikiMundo - Enciclopedia Libre</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+
+    <header class="header">
+
+        <div class="logo-area">
+
+            <div class="logo">
+                W
+            </div>
+
+            <div>
+                <h1>WikiMundo</h1>
+                <p>La enciclopedia libre</p>
+            </div>
+
+        </div>
+
+
+        <!-- MENÚ PRINCIPAL -->
+
+        <nav class="main-nav">
+
+            <a href="#inicio">Inicio</a>
+
+            <a href="#articulos">Artículos</a>
+
+            <a href="#categorias">Categorías</a>
+
+            <a href="#acerca">Acerca de</a>
+
+        </nav>
+
+
+        <!-- BUSCADOR -->
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Buscar en WikiMundo..."
+            >
+
+            <button id="searchButton">
+                Buscar
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         CONTENEDOR PRINCIPAL
+    ========================== -->
+
+    <div class="layout">
+
+
+        <!-- =========================
+             BARRA LATERAL
+        ========================== -->
+
+        <aside class="sidebar">
+
+            <h2>Navegación</h2>
+
+            <ul>
+
+                <li>
+                    <a href="#inicio">Página principal</a>
+                </li>
+
+                <li>
+                    <a href="#articulos">Artículos destacados</a>
+                </li>
+
+                <li>
+                    <a href="#actualidad">Actualidad</a>
+                </li>
+
+                <li>
+                    <a href="#aleatorio">Artículo aleatorio</a>
+                </li>
+
+                <li>
+                    <a href="#ayuda">Ayuda</a>
+                </li>
+
+            </ul>
+
+
+            <h2>Herramientas</h2>
+
+            <ul>
+
+                <li>
+                    <a href="#">Lo que enlaza aquí</a>
+                </li>
+
+                <li>
+                    <a href="#">Cambios recientes</a>
+                </li>
+
+                <li>
+                    <a href="#">Subir archivo</a>
+                </li>
+
+            </ul>
+
+
+            <div class="sidebar-box">
+
+                <h3>WikiMundo</h3>
+
+                <p>
+                    Una enciclopedia creada para aprender,
+                    investigar y compartir conocimiento.
+                </p>
+
+            </div>
+
+        </aside>
+
+
+        <!-- =========================
+             CONTENIDO
+        ========================== -->
+
+        <main class="content" id="inicio">
+
+
+            <!-- PORTADA -->
+
+            <section class="welcome">
+
+                <h2>Bienvenido a WikiMundo</h2>
+
+                <p>
+                    WikiMundo es una enciclopedia digital
+                    dedicada a compartir información sobre
+                    historia, ciencia, tecnología, cultura y
+                    muchos otros temas.
+                </p>
+
+                <div class="welcome-buttons">
+
+                    <a href="#articulos" class="button">
+                        Explorar artículos
+                    </a>
+
+                    <a href="#categorias" class="button secondary">
+                        Ver categorías
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 ARTÍCULO DESTACADO
+            ========================== -->
+
+            <section class="featured" id="articulos">
+
+                <div class="section-title">
+
+                    <h2>Artículo destacado</h2>
+
+                </div>
+
+
+                <article class="article">
+
+                    <h3>La Tierra</h3>
+
+                    <p class="article-info">
+                        Artículo destacado · Ciencia
+                    </p>
+
+                    <p>
+                        La Tierra es el tercer planeta del
+                        sistema solar y el único cuerpo celeste
+                        conocido que alberga vida. Se encuentra
+                        a una distancia adecuada del Sol, lo que
+                        permite la existencia de agua líquida
+                        en gran parte de su superficie.
+                    </p>
+
+                    <p>
+                        El planeta posee una atmósfera compuesta
+                        principalmente por nitrógeno y oxígeno.
+                        Su superficie está formada por continentes,
+                        océanos y diferentes ecosistemas.
+                    </p>
+
+                    <a href="#" class="read-more">
+                        Leer artículo completo →
+                    </a>
+
+                </article>
+
+            </section>
+
+
+            <!-- =========================
+                 ARTÍCULOS
+            ========================== -->
+
+            <section class="articles">
+
+                <div class="section-title">
+
+                    <h2>Artículos populares</h2>
+
+                </div>
+
+
+                <div class="article-grid">
+
+
+                    <article class="article-card">
+
+                        <div class="card-icon">
+                            🔬
+                        </div>
+
+                        <h3>Ciencia</h3>
+
+                        <p>
+                            Conoce conceptos relacionados con
+                            la ciencia, la investigación y los
+                            descubrimientos.
+                        </p>
+
+                        <a href="#">
+                            Leer más →
+                        </a>
+
+                    </article>
+
+
+                    <article class="article-card">
+
+                        <div class="card-icon">
+                            🌎
+                        </div>
+
+                        <h3>Geografía</h3>
+
+                        <p>
+                            Información sobre países, continentes,
+                            ciudades, océanos y características
+                            de nuestro planeta.
+                        </p>
+
+                        <a href="#">
+                            Leer más →
+                        </a>
+
+                    </article>
+
+
+                    <article class="article-card">
+
+                        <div class="card-icon">
+                            🏛️
+                        </div>
+
+                        <h3>Historia</h3>
+
+                        <p>
+                            Descubre acontecimientos históricos,
+                            civilizaciones y personajes importantes.
+                        </p>
+
+                        <a href="#">
+                            Leer más →
+                        </a>
+
+                    </article>
+
+
+                    <article class="article-card">
+
+                        <div class="card-icon">
+                            💻
+                        </div>
+
+                        <h3>Tecnología</h3>
+
+                        <p>
+                            Aprende sobre computación, internet,
+                            programación y nuevas tecnologías.
+                        </p>
+
+                        <a href="#">
+                            Leer más →
+                        </a>
+
+                    </article>
+
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 CATEGORÍAS
+            ========================== -->
+
+            <section class="categories" id="categorias">
+
+                <div class="section-title">
+
+                    <h2>Categorías</h2>
+
+                </div>
+
+
+                <div class="category-list">
+
+                    <a href="#">
+                        Arte
+                    </a>
+
+                    <a href="#">
+                        Ciencia
+                    </a>
+
+                    <a href="#">
+                        Historia
+                    </a>
+
+                    <a href="#">
+                        Tecnología
+                    </a>
+
+                    <a href="#">
+                        Geografía
+                    </a>
+
+                    <a href="#">
+                        Matemáticas
+                    </a>
+
+                    <a href="#">
+                        Cultura
+                    </a>
+
+                    <a href="#">
+                        Literatura
+                    </a>
+
+                    <a href="#">
+                        Música
+                    </a>
+
+                    <a href="#">
+                        Educación
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 ACTUALIDAD
+            ========================== -->
+
+            <section class="news" id="actualidad">
+
+                <div class="section-title">
+
+                    <h2>Actualidad</h2>
+
+                </div>
+
+                <ul>
+
+                    <li>
+                        Nuevos artículos agregados a la
+                        enciclopedia.
+                    </li>
+
+                    <li>
+                        Sección de tecnología actualizada.
+                    </li>
+
+                    <li>
+                        Nuevas categorías disponibles.
+                    </li>
+
+                    <li>
+                        Mejoras en la organización del contenido.
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+        </main>
+
+    </div>
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+
+    <footer id="acerca">
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>WikiMundo</h3>
+
+                <p>
+                    Enciclopedia digital para fines educativos.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Enlaces</h3>
+
+                <a href="#inicio">
+                    Página principal
+                </a>
+
+                <a href="#articulos">
+                    Artículos
+                </a>
+
+                <a href="#categorias">
+                    Categorías
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Proyecto</h3>
+
+                <p>
+                    Proyecto académico 2026
+                </p>
+
+                <p>
+                    Desarrollado con HTML, CSS y JavaScript.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 WikiMundo - Proyecto académico
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
